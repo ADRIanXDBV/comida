@@ -1,0 +1,7 @@
+{
+  "name": "adrian_comida",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
