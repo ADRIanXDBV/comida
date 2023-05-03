@@ -1,4 +1,5 @@
 #container {
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
   text-align: center;
 
   position: absolute;
@@ -7,7 +8,22 @@
   top: 50%;
   transform: translateY(-50%);
 }
+.my-element {
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(133, 29, 13), 0 0 70px rgb(137, 27, 27), 0 0 80px rgb(139, 33, 17), 0 0 100px rgb(131, 21, 21), 0 0 150px rgb(135, 20, 20);
+  animation: rgb-border 10s ease-in-out infinite;
+}
 
+@keyframes rgb-border {
+  0% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(9, 11, 99), 0 0 70px rgb(15, 31, 120), 0 0 80px rgb(18, 9, 88), 0 0 100px rgb(42, 10, 111), 0 0 150pxrgb(3, 3, 68)f;
+  }
+  50% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(112, 112, 29), 0 0 70px rgb(139, 139, 32), 0 0 80px rgb(175, 175, 53), 0 0 100px rgb(162, 162, 30), 0 0 150px #ff0;
+  }
+  100% {
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(55, 31, 31), 0 0 70px rgb(59, 26, 26), 0 0 80px rgb(50, 14, 14), 0 0 100px rgb(74, 15, 15), 0 0 150px #f00;
+  }
+}
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -28,13 +44,13 @@
 
 .list-formulario{
   margin-bottom: 10px;
-  border: 1px solid #9e02f8;
- 
+  border: 1px solid #6f0c0c;
+  
 
 }
 
 ion-content.background{
-  --background: url(https://www.todofondos.net/wp-content/uploads/fondo-de-pantalla-de-iphone-7-de-gotas-de-agua-negra-750x1334-1-576x1024.jpg) 0 0/100% 100% no-repeat;
+  --background: url(https://media.tenor.com/UhX-MlDClXAAAAAC/pato-bailando.gif) ;
 }
 
 
